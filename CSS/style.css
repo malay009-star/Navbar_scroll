@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Fredoka+One&family=Merienda:wght@300;400;500;600;700;800;900&family=Montserrat:wght@500&family=Patua+One&family=Poppins:wght@200;400;500;700&family=Questrial&family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Fredoka+One&family=Montserrat:wght@500&family=Patua+One&family=Poppins:wght@200;400;500;700&family=Questrial&family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap");
+.mb_auto {
+  margin-bottom: auto;
+}
+
+.mt {
+  margin-top: 30px;
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.brand {
+  font-family: "Merienda", cursive;
+  color: #689f38;
+}
+
+.list-inline {
+  cursor: pointer;
+  display: flex;
+  list-style-type: none;
+}
+.list-inline li {
+  margin-right: 20px;
+}
+
+.line-space {
+  line-height: 40px;
+}
+
+.valign_wrapper {
+  text-align: center;
+  color: #fff;
+}
+
+*,
+::after,
+::before {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.food_about,
+.food_menu,
+.food_footer {
+  padding: 80px 0;
+}
+
+h2 {
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 35px;
+}
+
+h3 {
+  color: #444;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+h4 {
+  color: #444;
+  font-weight: 600;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #689f38;
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.7rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+}
+.overlay {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.social-icons {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+}
+.social-icons li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #689f38;
+  margin-right: 1.3rem;
+  transition: all 0.3s ease;
+}
+.social-icons li:hover {
+  background-color: #fff;
+  color: #689f38;
+}
+
+@media screen and (max-width: 768px) {
+  .social-icons li {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .social-icons li {
+    width: 30px;
+    height: 30px;
+  }
+  .social-icons li i {
+    font-size: 1rem;
+  }
+  .list-inline i {
+    font-size: 1.7rem;
+  }
+}
+.food_header {
+  width: 100%;
+  height: 600px;
+  background-image: url("/img/header.png");
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+.site_heading {
+  font-family: "Merienda", cursive;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.site_subheading {
+  font-size: 20px;
+  letter-spacing: 6px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .site_heading {
+    font-size: 5rem;
+  }
+  .site_subheading {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .site_heading {
+    font-size: 3.1rem;
+  }
+  .site_subheading {
+    font-size: 1rem;
+  }
+}
+.color-primary {
+  color: #689f38;
+}
+
+.color-secondary {
+  color: #555;
+}
+
+.about_image {
+  display: flex;
+  justify-content: end;
+}
+
+figure {
+  position: relative;
+  width: 310px;
+  height: 310px;
+}
+figure img {
+  width: 100%;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+figure .back {
+  top: 13%;
+  left: -15%;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #689f38;
+}
+
+.food_icons {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  background-color: #689f38;
+  color: #fff;
+  border-radius: 50%;
+}
+.food_icons i {
+  font-size: 35px;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .about_image {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_icon {
+    background-color: red;
+    display: flex;
+    width: 100%;
+  }
+  .about_para {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about_icon {
+    display: none;
+  }
+  .about_para {
+    font-size: 0.8rem;
+  }
+}
+.food_offer {
+  width: 100%;
+  height: 500px;
+  background-image: url("/img/offer.png");
+}
+.food_offer_heading {
+  font-weight: 600;
+  font-size: 50px;
+}
+.food_offer_subheading {
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.offer_btn {
+  padding: 10px 25px;
+  margin-top: 18px;
+  border-radius: 27px;
+  display: inline-block;
+  text-decoration: none;
+  color: #689f38;
+  background-color: #fff;
+  transition: all 0.4s ease;
+}
+.offer_btn:hover {
+  background-color: #689f38;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .food_offer {
+    width: 100%;
+    height: 430px;
+  }
+  .food_offer_heading {
+    font-size: 2.5rem;
+  }
+  .valign_wrapper {
+    padding: 0rem 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .food_offer_heading {
+    font-size: 1.8rem;
+  }
+  .food_offer_subheading {
+    font-size: 0.9rem;
+  }
+}
+.menu {
+  list-style: none;
+}
+.menu_item {
+  display: flex;
+  justify-content: space-between;
+  color: #707070;
+  line-height: 50px;
+}
+.menu_price {
+  color: #689f38;
+}
+
+@media screen and (max-width: 500px) {
+  .row {
+    padding: 0rem 2rem;
+  }
+}
+.food_testimonial {
+  width: 100%;
+  height: 500px;
+  background-image: url("/img/testimonial.png");
+}
+
+.color-white {
+  color: #fff;
+}
+
+.testimonials {
+  width: 60%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+  color: #333;
+  padding: 60px 30px;
+  border-radius: 7px;
+}
+
+.testimonial_text {
+  color: #444;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    width: 100%;
+    padding: 2rem 1.5rem;
+  }
+  .testimonials .mt {
+    margin-top: 0rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .testimonials {
+    padding: 1.5rem 1.2rem;
+  }
+  .testimonial_text {
+    line-height: 2rem;
+  }
+}
+.food_footer {
+  background-color: #222;
+  color: #fff;
+}
+
+.Payment_method {
+  margin: 20px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .margin_both {
+    padding: 2.5rem 0rem 0.8rem 0rem;
+  }
+  .margin-bottom {
+    margin-bottom: 0rem;
+  }
+  .footer_pera {
+    font-size: 0.8rem;
+  }
+  .contact p {
+    font-size: 0.8rem;
+    line-height: 2.3rem;
+  }
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.navbar .nav_logo img {
+  width: 40px;
+  display: none;
+}
+.navbar .hamburger {
+  cursor: pointer;
+  width: 28px;
+}
+.navbar #click {
+  display: none;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+.navbar ul li {
+  padding: 20px;
+}
+.navbar ul a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+.navbar ul a.active {
+  color: #689f38;
+}
+.navbar ul a::after {
+  position: absolute;
+  width: 0%;
+  content: "";
+  left: 0%;
+  bottom: 0%;
+  height: 0.1rem;
+  background-color: #689f38;
+  transition: width 0.8s ease;
+}
+.navbar ul a:hover {
+  color: black;
+}
+.navbar ul a:hover::after {
+  width: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+  .nav_logo img {
+    display: none;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nav_logo img {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+  .navbar ul a.active {
+    padding-top: 150%;
+    color: #333;
+  }
+  .navigation_pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 4.2rem;
+    left: 0%;
+    height: 0%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: all 1s ease;
+    background-color: #689f38;
+  }
+  #click:checked ~ ul {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

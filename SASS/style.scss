@@ -1,0 +1,17 @@
+        @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Fredoka+One&family=Merienda:wght@300;400;500;600;700;800;900&family=Montserrat:wght@500&family=Patua+One&family=Poppins:wght@200;400;500;700&family=Questrial&family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Fredoka+One&family=Montserrat:wght@500&family=Patua+One&family=Poppins:wght@200;400;500;700&family=Questrial&family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap');
+        @import "utilities/variables";
+        @import "utilities/helpers";
+        @import "base/global";
+        @import "base/typography";
+        // components of design
+        @import "components/overlay";
+        @import "components/social_icons";
+        // layout of website
+        @import "layout/header";
+        @import "layout/about";
+        @import "layout/food_offer";
+        @import "layout/menu";
+        @import "layout/testimonials";
+        @import "layout/footer";
+        @import "layout/navbar";

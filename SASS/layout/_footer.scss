@@ -1,0 +1,24 @@
+.food_footer {
+    background-color: #222;
+    color: $color-white;
+}
+
+.Payment_method {
+    margin: 20px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .margin_both {
+        padding: 2.5rem 0rem 0.8rem 0rem;
+    }
+    .margin-bottom {
+        margin-bottom: 0rem;
+    }
+    .footer_pera {
+        font-size: 0.8rem;
+    }
+    .contact p {
+        font-size: 0.8rem;
+        line-height: 2.3rem;
+    }
+}

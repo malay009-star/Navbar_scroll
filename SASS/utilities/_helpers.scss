@@ -1,0 +1,39 @@
+.mb_auto {
+    margin-bottom: auto;
+}
+
+.mt {
+    margin-top: 30px;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.brand {
+    font-family: 'Merienda', cursive;
+    color: $primary-color;
+}
+
+.list-inline {
+    cursor: pointer;
+    display: flex;
+    list-style-type: none;
+    li {
+        margin-right: 20px;
+    }
+}
+
+.line-space {
+    line-height: 40px;
+    // font-size: 1rem;
+}
+
+.valign_wrapper {
+    text-align: center;
+    color: $color-white;
+}
