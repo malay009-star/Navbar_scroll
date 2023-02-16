@@ -160,7 +160,7 @@ h5 {
 .food_header {
   width: 100%;
   height: 600px;
-  background-image: url("/img/header.png");
+  background-image: url("../img/header.png");
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
 }
 
@@ -267,7 +267,7 @@ figure .back {
 .food_offer {
   width: 100%;
   height: 500px;
-  background-image: url("/img/offer.png");
+  background-image: url("../img/offer.png");
 }
 .food_offer_heading {
   font-weight: 600;
@@ -334,7 +334,7 @@ figure .back {
 .food_testimonial {
   width: 100%;
   height: 500px;
-  background-image: url("/img/testimonial.png");
+  background-image: url("../img/testimonial.png");
 }
 
 .color-white {
