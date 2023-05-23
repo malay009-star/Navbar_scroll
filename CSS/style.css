@@ -49,6 +49,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  z-index: -1;
 }
 
 .food_about,
@@ -192,6 +193,10 @@ h5 {
     font-size: 1rem;
   }
 }
+#food_about {
+  transition: all 0.5s ease;
+}
+
 .color-primary {
   color: #689f38;
 }
@@ -404,7 +409,7 @@ figure .back {
   width: 100%;
   margin-bottom: auto;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: white;
 }
 .navbar .nav_logo img {
   width: 40px;
@@ -450,6 +455,16 @@ figure .back {
   width: 100%;
 }
 
+.header-scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0.5084rem 1.1419rem 2.5rem 0 rgba(0, 0, 0, 0.08);
+  transition: all 0.5s ease-in-out;
+}
+
 @media screen and (max-width: 1400px) {
   .nav_logo img {
     display: none;
@@ -458,7 +473,7 @@ figure .back {
     display: none;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
   .nav_logo img {
     display: block;
   }
@@ -481,14 +496,14 @@ figure .back {
     width: 100%;
     display: block;
     text-align: center;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
     background-color: #689f38;
   }
   #click:checked ~ ul {
     height: 100%;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
   .navbar {
     display: flex;
     align-items: center;
